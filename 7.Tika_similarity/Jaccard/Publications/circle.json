@@ -1,0 +1,159 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "name": "grobid_header_Authors",
+                    "size": 9
+                },
+                {
+                    "name": "title",
+                    "size": 9
+                },
+                {
+                    "name": "Author",
+                    "size": 9
+                },
+                {
+                    "name": "id",
+                    "size": 9
+                },
+                {
+                    "name": "grobid_header_Address",
+                    "size": 9
+                },
+                {
+                    "name": "grobid_header_Title",
+                    "size": 9
+                }
+            ],
+            "name": "cluster0"
+        },
+        {
+            "children": [
+                {
+                    "name": "grobid_header_Authors",
+                    "size": 10
+                },
+                {
+                    "name": "grobid_header_Title",
+                    "size": 8
+                },
+                {
+                    "name": "Author",
+                    "size": 8
+                },
+                {
+                    "name": "id",
+                    "size": 11
+                },
+                {
+                    "name": "title",
+                    "size": 11
+                },
+                {
+                    "name": "grobid_header_Address",
+                    "size": 6
+                },
+                {
+                    "name": "Publications",
+                    "size": 1
+                }
+            ],
+            "name": "cluster1"
+        },
+        {
+            "children": [
+                {
+                    "name": "grobid_header_Title",
+                    "size": 55
+                },
+                {
+                    "name": "Author",
+                    "size": 81
+                },
+                {
+                    "name": "id",
+                    "size": 82
+                },
+                {
+                    "name": "title",
+                    "size": 81
+                },
+                {
+                    "name": "Publications",
+                    "size": 27
+                },
+                {
+                    "name": "grobid_header_Authors",
+                    "size": 1
+                },
+                {
+                    "name": "grobid_header_Address",
+                    "size": 1
+                }
+            ],
+            "name": "cluster2"
+        },
+        {
+            "children": [
+                {
+                    "name": "title",
+                    "size": 872
+                },
+                {
+                    "name": "id",
+                    "size": 892
+                },
+                {
+                    "name": "Author",
+                    "size": 879
+                },
+                {
+                    "name": "grobid_header_Title",
+                    "size": 27
+                },
+                {
+                    "name": "grobid_header_Authors",
+                    "size": 5
+                },
+                {
+                    "name": "grobid_header_Address",
+                    "size": 1
+                }
+            ],
+            "name": "cluster3"
+        },
+        {
+            "children": [
+                {
+                    "name": "id",
+                    "size": 611
+                },
+                {
+                    "name": "title",
+                    "size": 579
+                },
+                {
+                    "name": "grobid_header_Title",
+                    "size": 21
+                },
+                {
+                    "name": "Author",
+                    "size": 11
+                }
+            ],
+            "name": "cluster4"
+        },
+        {
+            "children": [
+                {
+                    "name": "id",
+                    "size": 226
+                }
+            ],
+            "name": "cluster5"
+        }
+    ],
+    "name": "clusters"
+}

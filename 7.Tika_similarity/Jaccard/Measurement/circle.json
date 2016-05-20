@@ -1,0 +1,330 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "name": "NER_PERSON",
+                    "size": 4
+                },
+                {
+                    "name": "NER_MONEY",
+                    "size": 4
+                },
+                {
+                    "name": "Measurements",
+                    "size": 4
+                },
+                {
+                    "name": "NER_LOCATION",
+                    "size": 4
+                },
+                {
+                    "name": "NER_DATE",
+                    "size": 4
+                },
+                {
+                    "name": "id",
+                    "size": 4
+                },
+                {
+                    "name": "NER_ORGANIZATION",
+                    "size": 4
+                },
+                {
+                    "name": "NER_PERCENT",
+                    "size": 4
+                },
+                {
+                    "name": "NER_TIME",
+                    "size": 4
+                }
+            ],
+            "name": "cluster0"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_PERSON",
+                    "size": 7
+                },
+                {
+                    "name": "Measurements",
+                    "size": 6
+                },
+                {
+                    "name": "NER_MONEY",
+                    "size": 3
+                },
+                {
+                    "name": "NER_LOCATION",
+                    "size": 7
+                },
+                {
+                    "name": "NER_PERCENT",
+                    "size": 7
+                },
+                {
+                    "name": "NER_ORGANIZATION",
+                    "size": 7
+                },
+                {
+                    "name": "NER_DATE",
+                    "size": 7
+                },
+                {
+                    "name": "id",
+                    "size": 7
+                },
+                {
+                    "name": "NER_TIME",
+                    "size": 5
+                }
+            ],
+            "name": "cluster1"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_PERSON",
+                    "size": 41
+                },
+                {
+                    "name": "Measurements",
+                    "size": 32
+                },
+                {
+                    "name": "NER_LOCATION",
+                    "size": 41
+                },
+                {
+                    "name": "NER_DATE",
+                    "size": 42
+                },
+                {
+                    "name": "NER_TIME",
+                    "size": 13
+                },
+                {
+                    "name": "NER_ORGANIZATION",
+                    "size": 42
+                },
+                {
+                    "name": "id",
+                    "size": 42
+                },
+                {
+                    "name": "NER_PERCENT",
+                    "size": 25
+                },
+                {
+                    "name": "NER_MONEY",
+                    "size": 16
+                }
+            ],
+            "name": "cluster2"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_PERSON",
+                    "size": 165
+                },
+                {
+                    "name": "Measurements",
+                    "size": 118
+                },
+                {
+                    "name": "NER_LOCATION",
+                    "size": 163
+                },
+                {
+                    "name": "NER_DATE",
+                    "size": 169
+                },
+                {
+                    "name": "NER_ORGANIZATION",
+                    "size": 169
+                },
+                {
+                    "name": "id",
+                    "size": 169
+                },
+                {
+                    "name": "NER_TIME",
+                    "size": 23
+                },
+                {
+                    "name": "NER_MONEY",
+                    "size": 20
+                },
+                {
+                    "name": "NER_PERCENT",
+                    "size": 18
+                }
+            ],
+            "name": "cluster3"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_PERSON",
+                    "size": 441
+                },
+                {
+                    "name": "NER_ORGANIZATION",
+                    "size": 482
+                },
+                {
+                    "name": "NER_LOCATION",
+                    "size": 431
+                },
+                {
+                    "name": "NER_DATE",
+                    "size": 476
+                },
+                {
+                    "name": "id",
+                    "size": 486
+                },
+                {
+                    "name": "Measurements",
+                    "size": 95
+                },
+                {
+                    "name": "NER_MONEY",
+                    "size": 12
+                },
+                {
+                    "name": "NER_PERCENT",
+                    "size": 5
+                },
+                {
+                    "name": "NER_TIME",
+                    "size": 2
+                }
+            ],
+            "name": "cluster4"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_PERSON",
+                    "size": 226
+                },
+                {
+                    "name": "NER_ORGANIZATION",
+                    "size": 392
+                },
+                {
+                    "name": "NER_LOCATION",
+                    "size": 250
+                },
+                {
+                    "name": "id",
+                    "size": 418
+                },
+                {
+                    "name": "NER_DATE",
+                    "size": 326
+                },
+                {
+                    "name": "Measurements",
+                    "size": 44
+                },
+                {
+                    "name": "NER_PERCENT",
+                    "size": 11
+                },
+                {
+                    "name": "NER_MONEY",
+                    "size": 4
+                },
+                {
+                    "name": "NER_TIME",
+                    "size": 1
+                }
+            ],
+            "name": "cluster5"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_ORGANIZATION",
+                    "size": 257
+                },
+                {
+                    "name": "id",
+                    "size": 279
+                },
+                {
+                    "name": "NER_DATE",
+                    "size": 124
+                },
+                {
+                    "name": "NER_PERSON",
+                    "size": 75
+                },
+                {
+                    "name": "NER_LOCATION",
+                    "size": 81
+                },
+                {
+                    "name": "NER_MONEY",
+                    "size": 3
+                },
+                {
+                    "name": "Measurements",
+                    "size": 17
+                },
+                {
+                    "name": "NER_PERCENT",
+                    "size": 1
+                }
+            ],
+            "name": "cluster6"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_ORGANIZATION",
+                    "size": 146
+                },
+                {
+                    "name": "id",
+                    "size": 198
+                },
+                {
+                    "name": "NER_DATE",
+                    "size": 31
+                },
+                {
+                    "name": "NER_PERSON",
+                    "size": 10
+                },
+                {
+                    "name": "NER_MONEY",
+                    "size": 1
+                },
+                {
+                    "name": "NER_LOCATION",
+                    "size": 7
+                },
+                {
+                    "name": "Measurements",
+                    "size": 3
+                }
+            ],
+            "name": "cluster7"
+        },
+        {
+            "children": [
+                {
+                    "name": "id",
+                    "size": 228
+                }
+            ],
+            "name": "cluster8"
+        }
+    ],
+    "name": "clusters"
+}

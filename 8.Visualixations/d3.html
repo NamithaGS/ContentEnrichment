@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        #row1{
+            display:flex;
+            flex-direction:row;
+            justify-content: space-around;
+        }
+        #column1{
+            display:flex;
+            flex-direction:column;
+
+        }
+        #column2{
+            display:flex;
+            flex-direction:column;
+        }
+        .d3-options{
+            float: left;
+            position: absolute;
+            top:50px;
+        }
+        .formSearch {
+            position:absolute;
+            width:50%;
+            left:250px;
+        }
+        .formSubmit{
+            position: absolute;
+            width:10%;
+            left:900px;
+        }
+        .panelBody{
+            height: 80%;
+            left: 160px;
+            position: absolute;
+            top: 120px;
+            width: 87%;
+            border: 1px solid #337ab7 ;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--
+    <link rel="icon" href="../../favicon.ico">
+    -->
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="/sampleProj/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/sampleProj/bootstrap/css/starter-template.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Solr Data Visualization</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<br><br><br>
+<div class="formSearch">
+    <input type="text" class="form-control" placeholder="Search Query" id="searchBox">
+</div>
+<div class="formSubmit">
+    <button type="button" class="btn btn-success" id="searchButton">Search</button>
+</div>
+<div class="list-group d3-options">
+    <button type="button" class="list-group-item" id="bubbleMap">Bubble Map</button>
+    <button type="button" class="list-group-item" id="partTree">Partition Tree</button>
+    <button type="button" class="list-group-item" id="circlePack">Circle Packing</button>
+    <button type="button" class="list-group-item" id="collapTree">Collapsible Tree</button>
+    <button type="button" class="list-group-item" id="wordCloud">Word Cloud</button>
+    <button type="button" class="list-group-item" id="lineGraph">Line Graph</button>
+</div>
+
+<iframe class="panelBody" id="iframeD3" src="about:blank">
+</iframe>
+<!--
+<div id="panelHead" class="panel panel-primary">
+    <div id="panelBody" class="panel-body">
+    </div>
+</div>
+-->
+<!--
+<div class="renderWindow">
+
+</div>
+-->
+
+<!--
+<div id="row1">
+    <div id="column1"></div>
+    <div id="column2"></div>
+</div>
+-->
+<!--
+<div id="jsonData"></div>
+<br><br>
+<div id="forcedGraph"></div>
+-->
+
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script type="text/javascript">
+    var count=0;
+    var phpJsonData;
+    var d3WidgetFunc=load_bubble_map;
+    var dashboardUrl="http://localhost:8983/solr/banana/src/index.html#/dashboard";
+    var facetViewUrl="http://localhost:8983/solr/facetView/index.html";
+    $(document).ready(function() {
+        $("#sub1").click(function(){
+            document.getElementById('iframeD3').src = "about:blank";
+        });
+        $("#sub2").click(function(){
+            document.getElementById('iframeD3').src = dashboardUrl;
+        });
+        $("#sub3").click(function(){
+            document.getElementById('iframeD3').src = facetViewUrl;
+        });
+        $("#searchButton").click(function(){
+            var searchValue=$("#searchBox").val();
+           getdata(searchValue);
+            count++;
+            process_data_php(phpJsonData);
+            d3WidgetFunc();
+        });
+        $("#circlePack").click(function(){
+            load_Cirle_packing();
+        });
+        $("#bubbleMap").click(function(){
+            load_bubble_map();
+        });
+        $("#collapTree").click(function(){
+            load_collabsible_tree();
+        });
+        $("#partTree").click(function(){
+            load_part_tree();
+        });
+        $("#wordCloud").click(function(){
+            load_word_cloud();
+        });
+        $("#lineGraph").click(function(){
+            load_line_graph();
+        });
+    });
+
+
+    function formatJsonData(data, textStatus, XMLHttpRequest)
+    {
+        //alert("returned object="+data);
+        phpJsonData=data;
+    }
+
+    function load_word_cloud()
+    {
+        if(count>0)
+        {
+            //alert("Word Cloud Called");
+            document.getElementById('iframeD3').src = "wordCloud.html";
+            d3WidgetFunc=load_word_cloud;
+        }
+    }
+
+    function load_part_tree()
+    {
+        if(count>0)
+        {
+            //alert("Bar Graph called");
+            document.getElementById('iframeD3').src = "partition.html";
+            d3WidgetFunc=load_part_tree;
+        }
+    }
+
+    function load_Cirle_packing()
+    {
+        if(count>0)
+        {
+            //alert("Circle Packing called");
+            document.getElementById('iframeD3').src = "circlePacking.html";
+            d3WidgetFunc=load_Cirle_packing;
+        }
+    }
+
+    function load_collabsible_tree()
+    {
+        if(count>0)
+        {
+            //alert("Collapsible Tree called");
+            document.getElementById('iframeD3').src = "collapsibleTree.html";
+            d3WidgetFunc=load_collabsible_tree;
+        }
+    }
+
+    function load_bubble_map()
+    {
+        if(count>0)
+        {
+            //alert("bubble_map_called");
+            document.getElementById('iframeD3').src = "maps.html";
+            d3WidgetFunc=load_bubble_map;
+        }
+
+    }
+
+    function load_line_graph()
+    {
+        if(count>0)
+        {
+            //alert("line_graph_called");
+            document.getElementById('iframeD3').src = "lineGraph.html";
+            d3WidgetFunc=load_line_graph;
+        }
+
+    }
+
+    function process_data_php(jsonData)
+    {
+        $.ajax({
+            url: "process.php",
+            type: 'POST',
+            data:{ "solrResp":jsonData },
+            error: function(xhr,ajaxOptions,thrownError) {
+
+                alert("ajaxOptions= "+ajaxOptions+"thrownError="+thrownError);
+                alert("xhr.responseText="+xhr.responseText);
+            },
+            success: function(data){
+                //alert("Php processing successfull="+data);
+            },
+            async:false
+        });
+    }
+
+
+    function getdata(query)
+    {
+        if(!query) {
+            var finalQuery = "*%3A*";
+        }
+        else
+        {
+            querySet=false;
+            var n=-1;
+            n = query.search("event_timestamp");
+            if(n>-1)
+            {
+                yearEntered=query.split(':')[1];
+                yearDiff = 2015-Number(yearEntered);
+                finalQuery="event_timestamp%3A%5B2015-01-01T00%3A01%3A01.999Z-"+yearDiff+"YEAR+TO+2015-01-01T00%3A01%3A01.999Z-"+yearDiff+"YEAR%2B1YEAR%5D";
+                querySet=true;
+            }
+            n = query.search("Gun_Types_Sold");
+            if(n>-1)
+            {
+                gunTypeEntered=query.split(':')[1];
+                finalQuery="Gun_Types_Sold%3A"+gunTypeEntered;
+                querySet=true;
+            }
+            n = query.search("Geographic_NAME");
+            if(n>-1)
+            {
+                geographicNameEntered=query.split(':')[1];
+                finalQuery="Geographic_NAME%3A"+geographicNameEntered;
+                querySet=true;
+            }
+            if(!querySet)
+                finalQuery=query.replace(/\s\s+/g, '+');
+        }
+
+
+        $.ajax({
+            url: "http://localhost:8983/solr/collection1/select?q="+finalQuery+"&rows=5000&fl=id%2Ctitle%2CAuthor%2Cgrobid*%2CNER*%2CMeasurements%2CPublications%2CGeographic*&wt=json&indent=true&omitHeader=true",
+            type: 'GET',
+            error: function(xhr,ajaxOptions,thrownError) {
+
+                alert("ajaxOptions= "+ajaxOptions+"thrownError="+thrownError);
+                alert("xhr.responseText="+xhr.responseText);
+            },
+            success: formatJsonData,
+            async:false
+        });
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "name": "Geographic_NAME",
+                    "size": 968
+                },
+                {
+                    "name": "Geographic_LONGITUDE",
+                    "size": 968
+                },
+                {
+                    "name": "id",
+                    "size": 968
+                },
+                {
+                    "name": "Geographic_LATITUDE",
+                    "size": 968
+                }
+            ],
+            "name": "cluster0"
+        },
+        {
+            "children": [
+                {
+                    "name": "id",
+                    "size": 863
+                }
+            ],
+            "name": "cluster1"
+        }
+    ],
+    "name": "clusters"
+}

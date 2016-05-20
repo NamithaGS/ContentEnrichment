@@ -1,0 +1,1397 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "name": "NER_SWEET_Humidity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_PlanetaryScience",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_AtmosphericPrecipitation",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_OceanCirculation",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ElectromagneticRadiationQuantity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Rock",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Measure",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Force",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Chemical",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Flow",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Equipment",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Length",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Coordinate",
+                    "size": 1
+                },
+                {
+                    "name": "id",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Vegetation",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_VerticalExtent",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_FractionalQuantity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_IntensiveProperty",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Cloud",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Speed",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_RadiativeTransfer",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Sediment",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_WaterSubstance",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_EnvironmentalImpact",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Ratio",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_AstronomicalBody",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Phenomena",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_TropicalCyclone",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Pressure",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_LiquidWater",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Communication",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Food",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_SoilLayer",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Distance",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_TraceSubstance",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_WaterConcentration",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_VectorQuantity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Temperature",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Substance",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Hydrosphere",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Science",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Landform",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ThermodynamicQuantity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GeologicTimeUnit",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Thickness",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_BodyOfWater",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_CommunicationsEquipment",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_HumanActivity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Mixture",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ProperInterval",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GeometricalObject",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Geosphere",
+                    "size": 1
+                }
+            ],
+            "name": "cluster0"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_SWEET_MarineEcosystem",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_AtmosphericPrecipitation",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_MarineAnimal",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Measure",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Chemical",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Organism",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Equipment",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_EnvironmentalImpact",
+                    "size": 1
+                },
+                {
+                    "name": "id",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_LivingEntity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Animal",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_OceanRidge",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_RenewableEnergySource",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GeologicStructure",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Cloud",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ExtensiveProperty",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_RadiativeTransfer",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Sediment",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_WaterSubstance",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_AtmosphericPhenomena",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_PlanetaryPhenomena",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Ratio",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Ice",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_AstronomicalBody",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_TropicalCyclone",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Vegetation",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_HydrospherePhenomena",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Pollution",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Food",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_SeismicPhenomena",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Distance",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_BodyOfWater",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Inundation",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Substance",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Hydrosphere",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Pressure",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GeosphereLayer",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GeologicFeature",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GeologicTimeUnit",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_VolcanicField",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_CommunicationsEquipment",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_HumanActivity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Mixture",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_EcologicalDynamics",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ProperInterval",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GeometricalObject",
+                    "size": 1
+                }
+            ],
+            "name": "cluster1"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_SWEET_Geosphere",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Rock",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_MarineAnimal",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Storm",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Food",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Flow",
+                    "size": 1
+                },
+                {
+                    "name": "id",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ElectromagneticProcess",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_VerticalExtent",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Animal",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_FossilFuel",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Mixture",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_AirPollution",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ExtensiveProperty",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GlobalChange",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Communication",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_PlanetaryPhenomena",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Vegetation",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Emission",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_PhysicalProcess",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_AstronomicalBody",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_TropicalCyclone",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Landform",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_LowPressure",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_WaterSubstance",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_LandReserve",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Energy",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ProperInterval",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_AtmosphericPrecipitation",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ThermodynamicQuantity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_BodyOfWater",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_CommunicationsEquipment",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_HumanActivity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_LocalTime",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_AtmosphericCyclone",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_MesoscaleWind",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GeometricalObject",
+                    "size": 1
+                }
+            ],
+            "name": "cluster2"
+        },
+        {
+            "children": [
+                {
+                    "name": "NER_SWEET_PlanetaryScience",
+                    "size": 46
+                },
+                {
+                    "name": "NER_SWEET_SeaIce",
+                    "size": 72
+                },
+                {
+                    "name": "NER_SWEET_ChemicalReaction",
+                    "size": 67
+                },
+                {
+                    "name": "NER_SWEET_Rock",
+                    "size": 44
+                },
+                {
+                    "name": "NER_SWEET_Compound",
+                    "size": 26
+                },
+                {
+                    "name": "NER_SWEET_Geology",
+                    "size": 16
+                },
+                {
+                    "name": "NER_SWEET_Organism",
+                    "size": 84
+                },
+                {
+                    "name": "NER_SWEET_Equipment",
+                    "size": 86
+                },
+                {
+                    "name": "NER_SWEET_PlanetaryPhenomena",
+                    "size": 131
+                },
+                {
+                    "name": "id",
+                    "size": 1828
+                },
+                {
+                    "name": "NER_SWEET_FossilFuel",
+                    "size": 35
+                },
+                {
+                    "name": "NER_SWEET_ExtensiveProperty",
+                    "size": 219
+                },
+                {
+                    "name": "NER_SWEET_BodyOfWater",
+                    "size": 263
+                },
+                {
+                    "name": "NER_SWEET_Geosphere",
+                    "size": 75
+                },
+                {
+                    "name": "NER_SWEET_AtmosphericPhenomena",
+                    "size": 6
+                },
+                {
+                    "name": "NER_SWEET_EnvironmentalImpact",
+                    "size": 16
+                },
+                {
+                    "name": "NER_SWEET_Ratio",
+                    "size": 128
+                },
+                {
+                    "name": "NER_SWEET_AstronomicalBody",
+                    "size": 187
+                },
+                {
+                    "name": "NER_SWEET_Path",
+                    "size": 23
+                },
+                {
+                    "name": "NER_SWEET_Phenomena",
+                    "size": 111
+                },
+                {
+                    "name": "NER_SWEET_Oil",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_Landform",
+                    "size": 210
+                },
+                {
+                    "name": "NER_SWEET_Pollution",
+                    "size": 6
+                },
+                {
+                    "name": "NER_SWEET_EngineeringActivity",
+                    "size": 11
+                },
+                {
+                    "name": "NER_SWEET_Energy",
+                    "size": 236
+                },
+                {
+                    "name": "NER_SWEET_ProperInterval",
+                    "size": 203
+                },
+                {
+                    "name": "NER_SWEET_Hydrosphere",
+                    "size": 106
+                },
+                {
+                    "name": "NER_SWEET_Science",
+                    "size": 129
+                },
+                {
+                    "name": "NER_SWEET_Element",
+                    "size": 10
+                },
+                {
+                    "name": "NER_SWEET_Sediment",
+                    "size": 150
+                },
+                {
+                    "name": "NER_SWEET_HumanActivity",
+                    "size": 554
+                },
+                {
+                    "name": "NER_SWEET_Mixture",
+                    "size": 188
+                },
+                {
+                    "name": "NER_SWEET_MesoscaleWind",
+                    "size": 133
+                },
+                {
+                    "name": "NER_SWEET_GeometricalObject",
+                    "size": 134
+                },
+                {
+                    "name": "NER_SWEET_Failure",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Force",
+                    "size": 90
+                },
+                {
+                    "name": "NER_SWEET_Noise",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_Flow",
+                    "size": 27
+                },
+                {
+                    "name": "NER_SWEET_GeologicalPhenomena",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_RenewableEnergySource",
+                    "size": 5
+                },
+                {
+                    "name": "NER_SWEET_FractionalQuantity",
+                    "size": 27
+                },
+                {
+                    "name": "NER_SWEET_IntensiveProperty",
+                    "size": 45
+                },
+                {
+                    "name": "NER_SWEET_RockConstituent",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_ExtrusiveRock",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Pressure",
+                    "size": 7
+                },
+                {
+                    "name": "NER_SWEET_Heat",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_WaterConcentration",
+                    "size": 6
+                },
+                {
+                    "name": "NER_SWEET_Substance",
+                    "size": 58
+                },
+                {
+                    "name": "NER_SWEET_GeologicFeature",
+                    "size": 27
+                },
+                {
+                    "name": "NER_SWEET_ThermodynamicQuantity",
+                    "size": 55
+                },
+                {
+                    "name": "NER_SWEET_CommunicationsEquipment",
+                    "size": 232
+                },
+                {
+                    "name": "NER_SWEET_EcologicalDynamics",
+                    "size": 101
+                },
+                {
+                    "name": "NER_SWEET_PhysicalProcess",
+                    "size": 42
+                },
+                {
+                    "name": "NER_SWEET_Measure",
+                    "size": 16
+                },
+                {
+                    "name": "NER_SWEET_Environment",
+                    "size": 52
+                },
+                {
+                    "name": "NER_SWEET_SubatomicParticle",
+                    "size": 35
+                },
+                {
+                    "name": "NER_SWEET_LandUse",
+                    "size": 52
+                },
+                {
+                    "name": "NER_SWEET_GlobalChange",
+                    "size": 43
+                },
+                {
+                    "name": "NER_SWEET_ClimatePhenomena",
+                    "size": 15
+                },
+                {
+                    "name": "NER_SWEET_ChemicalSubstance",
+                    "size": 5
+                },
+                {
+                    "name": "NER_SWEET_MountainRegion",
+                    "size": 178
+                },
+                {
+                    "name": "NER_SWEET_ElectromagneticProcess",
+                    "size": 113
+                },
+                {
+                    "name": "NER_SWEET_Animal",
+                    "size": 44
+                },
+                {
+                    "name": "NER_SWEET_Communication",
+                    "size": 31
+                },
+                {
+                    "name": "NER_SWEET_OceanCurrent",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_GeologicTimeUnit",
+                    "size": 97
+                },
+                {
+                    "name": "NER_SWEET_MarineAnimal",
+                    "size": 36
+                },
+                {
+                    "name": "NER_SWEET_ChemicalProcess",
+                    "size": 26
+                },
+                {
+                    "name": "NER_SWEET_LandRegion",
+                    "size": 15
+                },
+                {
+                    "name": "NER_SWEET_HypothesisTest",
+                    "size": 5
+                },
+                {
+                    "name": "NER_SWEET_Vegetation",
+                    "size": 60
+                },
+                {
+                    "name": "NER_SWEET_WaterPollution",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_LiquidWater",
+                    "size": 19
+                },
+                {
+                    "name": "NER_SWEET_HydrospherePhenomena",
+                    "size": 10
+                },
+                {
+                    "name": "NER_SWEET_SoilLayer",
+                    "size": 41
+                },
+                {
+                    "name": "NER_SWEET_StructuralModel",
+                    "size": 40
+                },
+                {
+                    "name": "NER_SWEET_Inundation",
+                    "size": 9
+                },
+                {
+                    "name": "NER_SWEET_AtmosphericPrecipitation",
+                    "size": 46
+                },
+                {
+                    "name": "NER_SWEET_Effluent",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Building",
+                    "size": 4
+                },
+                {
+                    "name": "NER_SWEET_LocalTime",
+                    "size": 48
+                },
+                {
+                    "name": "NER_SWEET_Chemical",
+                    "size": 30
+                },
+                {
+                    "name": "NER_SWEET_TemporalReference",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_Magnetism",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Length",
+                    "size": 34
+                },
+                {
+                    "name": "NER_SWEET_Distance",
+                    "size": 71
+                },
+                {
+                    "name": "NER_SWEET_WaveProperty",
+                    "size": 10
+                },
+                {
+                    "name": "NER_SWEET_EnergyForm",
+                    "size": 4
+                },
+                {
+                    "name": "NER_SWEET_TransportationEquipment",
+                    "size": 20
+                },
+                {
+                    "name": "NER_SWEET_TropicalCyclone",
+                    "size": 13
+                },
+                {
+                    "name": "NER_SWEET_HumanLaw",
+                    "size": 26
+                },
+                {
+                    "name": "NER_SWEET_Transportation",
+                    "size": 16
+                },
+                {
+                    "name": "NER_SWEET_AgriculturalProductionFacility",
+                    "size": 18
+                },
+                {
+                    "name": "NER_SWEET_GeologicStructure",
+                    "size": 20
+                },
+                {
+                    "name": "NER_SWEET_Humidity",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ElectromagneticRadiationQuantity",
+                    "size": 5
+                },
+                {
+                    "name": "NER_SWEET_FluxDensity",
+                    "size": 4
+                },
+                {
+                    "name": "NER_SWEET_Speed",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_Coordinate",
+                    "size": 9
+                },
+                {
+                    "name": "NER_SWEET_Frequency",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_WaterSubstance",
+                    "size": 103
+                },
+                {
+                    "name": "NER_SWEET_GlacialProcess",
+                    "size": 4
+                },
+                {
+                    "name": "NER_SWEET_Thickness",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_Ridge",
+                    "size": 14
+                },
+                {
+                    "name": "NER_SWEET_OceanRidge",
+                    "size": 4
+                },
+                {
+                    "name": "NER_SWEET_MarineEcosystem",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_TerrestrialEcosystem",
+                    "size": 14
+                },
+                {
+                    "name": "NER_SWEET_Land",
+                    "size": 10
+                },
+                {
+                    "name": "NER_SWEET_Monitoring",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Cloud",
+                    "size": 10
+                },
+                {
+                    "name": "NER_SWEET_Climatology",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_LandReserve",
+                    "size": 59
+                },
+                {
+                    "name": "NER_SWEET_Count",
+                    "size": 37
+                },
+                {
+                    "name": "NER_SWEET_RadiativeHeating",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_NaturalResource",
+                    "size": 34
+                },
+                {
+                    "name": "NER_SWEET_GeosphereLayer",
+                    "size": 37
+                },
+                {
+                    "name": "NER_SWEET_HorizontalCoordinate",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_OceanPhenomena",
+                    "size": 4
+                },
+                {
+                    "name": "NER_SWEET_Glacier",
+                    "size": 21
+                },
+                {
+                    "name": "NER_SWEET_AtmosphereLayer",
+                    "size": 5
+                },
+                {
+                    "name": "NER_SWEET_SeismicWave",
+                    "size": 4
+                },
+                {
+                    "name": "NER_SWEET_PlanetaryLayer",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_SocialActivity",
+                    "size": 22
+                },
+                {
+                    "name": "NER_SWEET_Agriculture",
+                    "size": 5
+                },
+                {
+                    "name": "NER_SWEET_Twilight",
+                    "size": 7
+                },
+                {
+                    "name": "NER_SWEET_AquaticEcosystem",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_Emission",
+                    "size": 35
+                },
+                {
+                    "name": "NER_SWEET_Turbulence",
+                    "size": 10
+                },
+                {
+                    "name": "NER_SWEET_Fishing",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_VolcanicField",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_SpectralAnalysis",
+                    "size": 21
+                },
+                {
+                    "name": "NER_SWEET_PowerSource",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_SolarEnergy",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_CoastalLandform",
+                    "size": 10
+                },
+                {
+                    "name": "NER_SWEET_Disease",
+                    "size": 17
+                },
+                {
+                    "name": "NER_SWEET_WavePhenomena",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_SeismicPhenomena",
+                    "size": 7
+                },
+                {
+                    "name": "NER_SWEET_RadiativeTransfer",
+                    "size": 10
+                },
+                {
+                    "name": "NER_SWEET_Food",
+                    "size": 60
+                },
+                {
+                    "name": "NER_SWEET_Sample",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_OscillationState",
+                    "size": 8
+                },
+                {
+                    "name": "NER_SWEET_Storm",
+                    "size": 8
+                },
+                {
+                    "name": "NER_SWEET_VerticalExtent",
+                    "size": 82
+                },
+                {
+                    "name": "NER_SWEET_AirPollution",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_Event",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ClimateAnomaly",
+                    "size": 11
+                },
+                {
+                    "name": "NER_SWEET_Ice",
+                    "size": 12
+                },
+                {
+                    "name": "NER_SWEET_Daytime",
+                    "size": 15
+                },
+                {
+                    "name": "NER_SWEET_LowPressure",
+                    "size": 9
+                },
+                {
+                    "name": "NER_SWEET_AtmosphericCyclone",
+                    "size": 5
+                },
+                {
+                    "name": "NER_SWEET_VectorQuantity",
+                    "size": 14
+                },
+                {
+                    "name": "NER_SWEET_StateChange",
+                    "size": 8
+                },
+                {
+                    "name": "NER_SWEET_SedimentFormation",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_Tectonics",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_Composition",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_Time",
+                    "size": 10
+                },
+                {
+                    "name": "NER_SWEET_TropicalClimateZone",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_OrganicCompound",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_LivingEntity",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_Canyon",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_SeaFloor",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Mineral",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_RadiationMediumInteractionProperty",
+                    "size": 23
+                },
+                {
+                    "name": "NER_SWEET_PlanetaryBoundary",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_PlanetarySurfaceLevel",
+                    "size": 14
+                },
+                {
+                    "name": "NER_SWEET_Luminescence",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Reservoir",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_VolcanicPlume",
+                    "size": 9
+                },
+                {
+                    "name": "NER_SWEET_OceanEnvironmentalImpact",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_AnimalProduction",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_StellarAtmosphere",
+                    "size": 7
+                },
+                {
+                    "name": "NER_SWEET_GlobalCycle",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Conservation",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Separation",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_ReferenceFrame",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_Circulation",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_Volume",
+                    "size": 4
+                },
+                {
+                    "name": "NER_SWEET_Cavity",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_Ecosystem",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Anomaly",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ChemicalProperty",
+                    "size": 5
+                },
+                {
+                    "name": "NER_SWEET_Area",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Footprint",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_LocalWind",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_TimeMean",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Wind",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_FractureZone",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_ConicSection",
+                    "size": 7
+                },
+                {
+                    "name": "NER_SWEET_Forest",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_OceanRegion",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Reaction",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GeomagneticIndex",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Vent",
+                    "size": 5
+                },
+                {
+                    "name": "NER_SWEET_Fog",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_VolcanicRock",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Biofuel",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_EarthOscillation",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_AtmosphericLightEmission",
+                    "size": 2
+                },
+                {
+                    "name": "NER_SWEET_Temperature",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_TraceSubstance",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_VectorField",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Freezing",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_GravityWave",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_Plain",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_TerrestrialBiome",
+                    "size": 3
+                },
+                {
+                    "name": "NER_SWEET_Slide",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_TectonicPhenomena",
+                    "size": 1
+                },
+                {
+                    "name": "NER_SWEET_EnvironmentalIndex",
+                    "size": 1
+                }
+            ],
+            "name": "cluster3"
+        }
+    ],
+    "name": "clusters"
+}
